@@ -1,0 +1,24 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "env-cmd -f ./server/config/dev.env nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "mongodb": "^3.2.5",
+    "mongoose": "^5.5.9"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.1",
+    "nodemon": "^1.19.0"
+  }
+}
